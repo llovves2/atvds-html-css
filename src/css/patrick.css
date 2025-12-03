@@ -11,11 +11,15 @@ nav {
     font-size: 35px;
 }
 .img {
-    margin-top: 45px;
-    margin-left: 770px;
+    margin-top: 15px;
+    margin-left: 870px;
 
 }
 .text {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 
+}
+#leg {
+    margin-left: 60px;
 }
