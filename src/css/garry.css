@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+
+}
+body{
+    background-color: lightpink;
+}
+nav {
+    text-align: center;
+    font-size: 35px;
+}
+.img {
+    margin-top: 45px;
+    margin-left: 770px;
+
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
