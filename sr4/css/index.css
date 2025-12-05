@@ -1,0 +1,18 @@
+.title {
+    text-align: left;
+}
+.text { 
+    text-align: center;
+    margin-top: 100px;
+}
+nav {
+    text-align: center;
+    
+}
+#img {
+    width: 320px;
+    height: 200;
+    margin-left: 610px;
+    border: 1px solid;
+    display: block;
+}
