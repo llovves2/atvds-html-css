@@ -1,0 +1,40 @@
+.cont1{
+    position: relative;
+    display: inline-block;
+    display: block;
+    left: 20%;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+.img1 {
+    position: absolute;
+    display: block;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    bottom: 0%;
+    left: 0%;
+    right:100px;
+}
+
+.cont2{
+    position: relative;
+    display: block;
+    display: inline-block;
+    left: 40%;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    bottom: 200px;
+}
+.cont3{
+    position: relative;
+    display: inline-block;
+    left: 60%;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    bottom: 409px;
+
+}

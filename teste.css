@@ -1,4 +1,11 @@
-#vd {
-    width: 340px;
-    height: 300px;
+.container {
+  display: flex; /* Transforma o container em um flex container */
+  justify-content: space-around; /* Distribui espaço entre as imagens */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.container img {
+    border: 1px solid;
+  max-width: 50%; /* Garante que as imagens não ultrapassem o container */
+  height: auto;
 }
