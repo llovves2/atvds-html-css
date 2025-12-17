@@ -11,30 +11,49 @@
     }
 .container {
     
-    width: 90vw;
-    height: 90vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    flex-flow: wrap nowrap;
-    /*align-items: last baseline;*/
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    /* flex-flow: column nowrap; */
+    /*align-items: last baseline;*/
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 .item {
+    /* margin-top: 04%; */
+    /* margin-left: 0%;0 */
     width: 100px ;
     height: 100px;
     background-color: rgb(202 202 233);
     border: 1px solid black;
 
 }
+#itemA {
+    
+    /* align-self: center; */
+
+}
+#itemB {
+    /* margin-bottom: 40%; */
+}
+#itemC {
+    /* align-self: center; */
+}
+#itemD {
+    /* align-self: center; */
+}
 </style>
 <body>
     <main>
         <section>   
     <div class="container">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
+        <div class="item" id="itemA">A</div>
+        <div class="item" id="itemB" >B</div>
+        <div class="item" id="itemC" >C</div>
+        <!-- <div class="item" id="itemD">D</div> -->
     </div>
         </section> 
     </main>
