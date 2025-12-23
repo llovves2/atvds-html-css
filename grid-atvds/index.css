@@ -1,0 +1,26 @@
+
+
+.container {
+    /* pode usar repeat para organizar as colunas.
+    EX: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(2, 1fr) ;
+    gap: 10px;
+    justify-content: stretch;
+    display: grid;
+    /* grid-auto-rows: 55px; */
+    /* place-content: center end;
+
+    Forma simplificada de alinhamento de elementos */
+    /* place-items: center center; */
+    border: 1px solid black;
+    
+    width: 95%;
+    height: 40vh;
+
+}
+
+.item {
+    border: 1px solid red;
+    
+}
