@@ -1,0 +1,75 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container {
+    border: 1px solid aquamarine;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    height: vh;
+    width: 100%;
+
+
+}
+.item {
+    border: 1px solid black;
+
+}
+#itemA {
+    padding: 70px;
+
+    grid-row: 1 /2;
+    grid-column: 1/7;
+    background-color: dimgrey;
+    text-align: center;
+
+}
+#itemB {
+    
+    grid-row: 2/3;
+    grid-column: 1/7;
+    text-align: center;
+}
+#itemC {
+
+    text-align: center;
+    grid-row: 3/6;
+    grid-column: 1/5;
+}
+
+#itemD {
+    text-align: center;
+    grid-row: 3/6;
+    grid-column: 5/7;
+}
+#itemE {
+    text-align: center;
+    grid-row: 6/19;
+    grid-column: 1/7;
+}
+
+</style>
+<body>
+    <main>
+        <div class="container">
+
+        <div class="item" id="itemA">Top</div>
+        <div class="item" id="itemB">Menu</div>
+        <div class="item" id="itemC">Principal</div>
+        <div class="item" id="itemD">Secundario</div>
+        <div class="item" id="itemE">rodape</div>                                                                        -
+        <!-- <div class="item">Sab</div> -->
+        <!-- <div class="item">Dom </div> -->
+        <!-- <div class="item">8</div> -->
+        <!-- <div class="item">9</div> -->
+        </div>
+
+    </main>
+</body>
+</html>         
